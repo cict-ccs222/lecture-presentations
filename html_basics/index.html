@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>HTML Basics</title>
+
+	<meta name="description" content="Presentation made with reveal.js">
+	<meta name="author" content="Mark Joseph J. Solidarios">
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="left" data-background="assets/bg0.jpg">
+				<h2>HTML</h2>
+				<p>Creating Web Pages</p>
+				<img src="assets/profile.jpg" class="profile" /><small class="profile-text">mjsolidarios@wvsu.edu.ph |
+					https://github.com/mjsolidarios</small>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<img src="assets/nav.svg" alt="" class="icon-md" />
+				<p><small>
+						Use the navigation buttons or the arrow keys to proceed to the remaining slides.
+					</small></p>
+				<h2>F</h2>
+				<p>
+					<small>
+						You can also press
+						<span class="highlight">&gt;</span>
+						<span class="highlight">&gt;</span>F
+						<span class="highlight">&lt;</span>
+						<span class="highlight">&lt;</span> on your keyboard to show your presentation in fullscreen
+						mode.
+					</small>
+				</p>
+				<img src="assets/explore.svg" class="icon-md" alt="" />
+				<p>
+					<small>
+						This presentation is best explored with up-to-date web browsers.
+					</small>
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<h3>What is HTML?</h3>
+				<p>
+					HTML is not a programming language; <span class="fragment">it is a markup language that defines the
+						structure of your content</span>.
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>Typical HTML Structure</p>
+				<img style="height: 400px; width: auto;" src="assets/html.png" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>Via VSCode (Emmet)</p>
+				<img style="height: 250px; width: auto;" src="assets/html5.png" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>Tags</p>
+				<img style="height: 400px; width: auto;" src="assets/tags.png" alt="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>Attributes</p>
+				<img style="height: 180px; width: auto;" src="assets/attributes.png" alt="">
+				<p><small class="fragment left">Attributes provide additional information
+						about the contents of an element. They appear
+						on the opening tag of the element and are
+						made up of two parts: a name and a value,
+						separated by an equals sign.</small></p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>Attributes can very specific to an HTML element or can be available to most elements like "id,
+					class...etc".</p>
+			</section>
+
+			<section data-background="assets/bg0.jpg">
+				<section>
+					<h2>Key Concepts</h2>
+					<img src="assets/down-arrow-blue.svg" alt="">
+				</section>
+				<section>
+					<p>Remember...</p>
+					<ul>
+						<li class="fragment">HTML pages are text documents.</li>
+						<li class="fragment">HTML uses tags (characters that sit inside angled
+							brackets) to give the information they surround special
+							meaning.</li>
+						<li class="fragment">Tags are often referred to as elements.</li>
+					</ul>
+				</section>
+				<section>
+					<ul>
+						<li class="fragment">Tags usually come in pairs. The opening tag denotes
+							the start of a piece of content; the closing tag denotes
+							the end.</li>
+						<li class="fragment">Opening tags can carry attributes, which tell us more
+							about the content of that element.</li>
+						<li class="fragment">Attributes require a name and a value.</li>
+					</ul>
+				</section>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>The Editor</p>
+				<img style="width: 100%; height: auto;" src="assets/vscode.png" alt="" srcset="">
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>
+					Thank you!
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
