@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Tailwind</title>
+
+	<meta name="description" content="Presentation made with reveal.js">
+	<meta name="author" content="Mark Joseph J. Solidarios">
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="left" data-background="assets/bg0.jpg">
+				<h2>Tailwind</h2>
+				<p>Font-End Frameworks</p>
+				<img src="assets/profile.jpg" class="profile" /><small class="profile-text">mjsolidarios@wvsu.edu.ph |
+					https://github.com/mjsolidarios</small>
+			</section>
+			<section data-background="assets/bg0.jpg" class="left">
+				<img src="assets/nav.svg" alt="" class="icon-md" />
+				<p><small>
+						Use the navigation buttons or the arrow keys to proceed to the remaining slides.
+					</small></p>
+				<h2>F</h2>
+				<p>
+					<small>
+						You can also press
+						<span class="highlight">&gt;</span>
+						<span class="highlight">&gt;</span>F
+						<span class="highlight">&lt;</span>
+						<span class="highlight">&lt;</span> on your keyboard to show your presentation in fullscreen
+						mode.
+					</small>
+				</p>
+				<img src="assets/explore.svg" class="icon-md" alt="" />
+				<p>
+					<small>
+						This presentation is best explored with up-to-date web browsers.
+					</small>
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<img src="assets/tailwind.svg" style="width: 400px; height: 150px;" alt="">
+				<p class="fragment">
+					Develop websites without writing any CSS code.
+				</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>What is Tailwind CSS?</p>
+				<ul>
+					<li class="fragment">Utility-first CSS framework</li>
+					<li class="fragment">Power to Customize Everything</li>
+					<li class="fragment">Not a UI Kit</li>
+					<li class="fragment">Responsive Core</li>
+					<lig class="fragment">Best Suited for Complex Style Guides.</lig>
+				</ul>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>
+					Tailwind !== Bootstrap
+				</p>
+				<p class="fragment"><small>They are completely different.</small></p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+			<p>Tailwind works by combining multiple CSS classes.</p>
+			<p class="fragment">Traditionally, whenever you need to style something on the web, you write CSS.</p>
+			</section>
+			<section data-background="assets/bg0.jpg">
+			<p>Why Tailwind?</p>
+			<ul>
+				<li class="fragment">You aren't wasting energy inventing class names for your CSS.</li>
+				<li class="fragment">Your CSS stops growing.</li>
+				<li class="fragment">Making changes will be faster and safer.</li>
+				<li class="fragment">No need to torture yourself in writing heavy CSS code.</li>
+			</ul>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<h4>Exercise</h4>
+			<p>We started from the &lt;button&gt;, now we are here!</p>
+<pre><code>
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+	Button
+</button>
+</code></pre>			
+			<small><a href="https://tailwindcss.com/components">Open Full Tailwind Guide</a></small>
+			</section>
+			<section data-background="assets/bg0.jpg">
+				<p>
+					Thank you!
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
